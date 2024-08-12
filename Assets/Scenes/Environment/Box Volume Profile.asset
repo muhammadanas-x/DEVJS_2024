@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7132001363205608830
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a074ec59f6e910b4e8c49f57e56cf95a, type: 3}
+  m_Name: VolumetricFogVolumeComponent
+  m_EditorClassIdentifier: 
+  active: 1
+  distance:
+    m_OverrideState: 1
+    m_Value: 16
+  baseHeight:
+    m_OverrideState: 1
+    m_Value: 17.09
+  maximumHeight:
+    m_OverrideState: 1
+    m_Value: 82.4
+  density:
+    m_OverrideState: 1
+    m_Value: 0.605
+  attenuationDistance:
+    m_OverrideState: 1
+    m_Value: 69.1
+  tint:
+    m_OverrideState: 1
+    m_Value: {r: 0.7169812, g: 0.08454966, b: 0.08454966, a: 1}
+  mainLightAnisotropy:
+    m_OverrideState: 1
+    m_Value: 0
+  mainLightScattering:
+    m_OverrideState: 1
+    m_Value: 0.175
+  additionalLightsAnisotropy:
+    m_OverrideState: 1
+    m_Value: 0.304
+  additionalLightsScattering:
+    m_OverrideState: 1
+    m_Value: 32
+  additionalLightsRadius:
+    m_OverrideState: 1
+    m_Value: 0.866
+  maxSteps:
+    m_OverrideState: 1
+    m_Value: 76
+  blurIterations:
+    m_OverrideState: 1
+    m_Value: 2
+  enabled:
+    m_OverrideState: 1
+    m_Value: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: Box Volume Profile
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: -7132001363205608830}
